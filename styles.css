@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	background-color: #fbfbfb;
+	font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+	background-image: url('images/dust_scratches.png');
+}
+
+#header {
+	height: 80px;
+	padding-top: 10px;
+	font: italic bold 64px 'Lobster Two', cursive;
+	text-align: center;
+}
+
+#nav {
+	font-size: 20px;
+	height: 80px;
+	padding-left: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+}
+
+a {
+	display: block;
+	padding: 30px 50px 8px 50px;
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #d6847f;
+}
+
+a.active {
+	border-bottom: 3px solid #f3c5c2;
+}
+
+#content-index {
+	height: 700px;
+}
+
+#content-screen {
+	height: 1070px;
+}
+
+#content-humanitarian {
+	height: 1135px;
+}
+
+#content-personal {
+	height: 1470px;
+}
+
+#content-contact {
+	height: 850px;
+}
+
+#article, #contact {
+	width: 650px;
+	float: left;
+	margin-left: 20px;
+}
+
+#contact-text {
+	font-size: 30px;
+	text-align: center;
+}
+
+#images {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+img {
+	border: 5px solid #f3c5c2;
+}
+
+.image-center {
+	display: block;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image-contact-center {
+	margin-top: 250px;
+
+}
+
+.caption {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.caption-italics {
+	font-style: italic;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	text-align: left;
+}
+
+th, td {
+	padding: 0 20px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+#message {
+	height: 200px;
+}
+
+input[type=submit] {
+	background-color: #666;
+	color: #fff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #f3c5c2;
+	color: #000;
+}
+
+#contact {
+	margin: 30px 30px 30px 50px;
+	background-color: #fafafa;
+}
+
+form {
+	width: 80%;
+	padding: 30px 10px 30px 40px;
+}
+
+#footer {
+	clear: both;
+	background-color: #f3c5c2;
+	padding: 10px 150px;
+	font: italic 26px 'Lobster Two', cursive;
+	text-align: center;
+}
+
+#footer-contact {
+	clear: both;
+	background-color: #f3c5c2;
+	padding: 10px 130px;
+	font: italic 26px 'Lobster Two', cursive;
+	text-align: center;
+}
